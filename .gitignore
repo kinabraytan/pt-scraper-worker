@@ -1,0 +1,14 @@
+# Ignore sensitive and secret files
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+
+# Ignore other common local files
+node_modules/
+dist/
+build/
+.DS_Store
